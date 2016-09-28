@@ -9,7 +9,6 @@ import prajwal.recursiontest
 def main():
 	name_server =sys.argv[1]
 	domain = "www.google.com"
-	print "sds"
  	prajwal.recursiontest.recursion_test(domain,name_server)
  	prajwal.resolvertest.resolve_test(domain,name_server)
 
